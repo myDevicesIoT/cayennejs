@@ -15,8 +15,8 @@ cayenne.connect(function() {
     console.log("MQTT Connected");
 });
 
-cayenne.on('cmd3', function(value) {
-    console.log("Received %s on cmd channel 3", value);
+cayenne.on('cmd3', function(channel, cmd) {
+    console.log("Received <%s> on cmd channel %d", cmd, channel);
     
     // Process command and send data back
 });
