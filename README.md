@@ -4,7 +4,7 @@
 npm install cayennejs
 ```
 
-```
+```javascript
 var Cayenne = require('cayennejs');
 
 // Initiate MQTT API
