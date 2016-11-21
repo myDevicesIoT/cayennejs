@@ -1,5 +1,7 @@
 # Cayenne IoT Node.JS API
 
+Use this library to quickly connect your device to Cayenne Cloud. For more information see our [API Documentation](http://www.cayenne-mydevices.com/docs/#bring-your-own-thing-api-mqtt-messaging-topics)
+
 ```
 npm install cayennejs
 ```
