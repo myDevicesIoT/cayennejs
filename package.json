@@ -1,5 +1,5 @@
 {
-  "name": "@mydevices/cayennejs",
+  "name": "cayennejs",
   "description": "Cayenne API for Node.JS Library",
   "author": "myDevices Inc",
   "version": "0.0.4",
