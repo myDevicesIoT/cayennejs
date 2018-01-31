@@ -1,13 +1,14 @@
 {
-  "name": "cayennejs",
+  "name": "@mydevices/cayennejs",
   "description": "Cayenne API for Node.JS Library",
-  "author": {
-    "name": "myDevices Inc"
-  },
+  "author": "myDevices Inc",
   "version": "0.0.4",
-  "homepage": "mydevices.com/cayenne",
-  "repository": "https://github.com/myDevicesIoT/cayennejs",
-  "main": "",
+  "homepage": "http://mydevices.com/cayenne",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myDevicesIoT/cayennejs.git"
+  },
+  "main": "index.js",
   "keywords": [
     "cayenne",
     "mqtt",
@@ -29,5 +30,12 @@
   "scripts": {
     "test": "mocha --timeout 2000"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myDevicesIoT/cayennejs/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
