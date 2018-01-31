@@ -1,16 +1,25 @@
 {
   "name": "cayennejs",
-  "description": "Cayenne API Node.JS Library",
-  "version": "0.0.3",
+  "description": "Cayenne API for Node.JS Library",
+  "author": {
+    "name": "myDevices Inc"
+  },
+  "version": "0.0.4",
   "homepage": "mydevices.com/cayenne",
   "repository": "https://github.com/myDevicesIoT/cayennejs",
   "main": "",
-  "keywords": ["cayenne", "mqtt", "iot", "api", "mydevices"],
+  "keywords": [
+    "cayenne",
+    "mqtt",
+    "iot",
+    "api",
+    "mydevices"
+  ],
   "engines": {
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "mqtt": "2.x.x",
+    "mqtt": "2.15.0",
     "routes": "^2.1.0"
   },
   "devDependencies": {
