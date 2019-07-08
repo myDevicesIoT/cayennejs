@@ -1,9 +1,9 @@
 {
   "name": "cayennejs",
-  "description": "Cayenne API for Node.JS Library",
+  "description": "Cayenne MQTT Wrapper for Node.JS",
   "author": "myDevices Inc",
-  "version": "0.0.4",
-  "homepage": "http://mydevices.com/cayenne",
+  "version": "0.0.5",
+  "homepage": "https://mydevices.com/cayenne",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/myDevicesIoT/cayennejs.git"
@@ -17,15 +17,15 @@
     "mydevices"
   ],
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=10.16.0"
   },
   "dependencies": {
-    "mqtt": "2.15.0",
+    "mqtt": "3.0.0",
     "routes": "^2.1.0"
   },
   "devDependencies": {
     "assert": "^1.4.1",
-    "mocha": "^3.1.2"
+    "mocha": "6.1.4"
   },
   "scripts": {
     "test": "mocha --timeout 2000"
